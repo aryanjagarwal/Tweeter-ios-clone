@@ -17,6 +17,7 @@
 		7A95322A28D370DA007340D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A95322928D370DA007340D3 /* Preview Assets.xcassets */; };
 		7A95323A28D37294007340D3 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95323928D37294007340D3 /* FeedView.swift */; };
 		7A95323D28D373E8007340D3 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95323C28D373E8007340D3 /* TweetRowView.swift */; };
+		7AEEAF0328D5C44400D13EE6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEAF0228D5C44400D13EE6 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		7A95322928D370DA007340D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A95323928D37294007340D3 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		7A95323C28D373E8007340D3 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
+		7AEEAF0228D5C44400D13EE6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,8 @@
 		7A289C4928D4CDC200410CE2 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				7AEEAF0128D5C3C400D13EE6 /* ViewModels */,
+				7AEEAF0028D5C3BC00D13EE6 /* Views */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -197,6 +201,21 @@
 			path = Tweets;
 			sourceTree = "<group>";
 		};
+		7AEEAF0028D5C3BC00D13EE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AEEAF0228D5C44400D13EE6 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AEEAF0128D5C3C400D13EE6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -268,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A289C4F28D4CE6900410CE2 /* MessagesView.swift in Sources */,
+				7AEEAF0328D5C44400D13EE6 /* ProfileView.swift in Sources */,
 				7A95322528D370D8007340D3 /* ContentView.swift in Sources */,
 				7A95323D28D373E8007340D3 /* TweetRowView.swift in Sources */,
 				7A95323A28D37294007340D3 /* FeedView.swift in Sources */,

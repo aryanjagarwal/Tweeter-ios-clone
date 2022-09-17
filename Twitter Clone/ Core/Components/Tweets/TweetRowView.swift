@@ -34,7 +34,7 @@ struct TweetRowView: View {
                     }
                     
                     // tweet caption
-                    Text("I believe in Lana Rhodes")
+                    Text("I believe in Ironman")
                         .font(.subheadline)
                         .multilineTextAlignment(.leading)
                 }
