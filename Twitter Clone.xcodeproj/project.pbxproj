@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A272E5028D95B6400ECFB93 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A272E4F28D95B6400ECFB93 /* TweetFilterViewModel.swift */; };
 		7A289C4528D4CB2E00410CE2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A289C4428D4CB2E00410CE2 /* MainTabView.swift */; };
 		7A289C4B28D4CDFB00410CE2 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A289C4A28D4CDFB00410CE2 /* ExploreView.swift */; };
 		7A289C4D28D4CE3700410CE2 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A289C4C28D4CE3700410CE2 /* NotificationsView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A272E4F28D95B6400ECFB93 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 		7A289C4428D4CB2E00410CE2 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		7A289C4A28D4CDFB00410CE2 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		7A289C4C28D4CE3700410CE2 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 		7AEEAF0128D5C3C400D13EE6 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				7A272E4F28D95B6400ECFB93 /* TweetFilterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				7AEEAF0328D5C44400D13EE6 /* ProfileView.swift in Sources */,
 				7A95322528D370D8007340D3 /* ContentView.swift in Sources */,
 				7A95323D28D373E8007340D3 /* TweetRowView.swift in Sources */,
+				7A272E5028D95B6400ECFB93 /* TweetFilterViewModel.swift in Sources */,
 				7A95323A28D37294007340D3 /* FeedView.swift in Sources */,
 				7A95322328D370D8007340D3 /* Twitter_CloneApp.swift in Sources */,
 				7A289C4B28D4CDFB00410CE2 /* ExploreView.swift in Sources */,
